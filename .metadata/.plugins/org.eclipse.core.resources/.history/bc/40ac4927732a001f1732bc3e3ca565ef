@@ -1,0 +1,37 @@
+package com.tmb.tests;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import com.tmb.constants.FrameworkConstants;
+
+public class LoginpageTest{
+	
+	//1. never hardcode
+	//Keep right thing at right place
+	public static String chromedriverpath= System.getProperty("user.dir")+"/src/test/resources/Executables/chrome.exe";
+	
+	
+	
+	@Test
+	public void test1() {
+		System.setProperty("webdriver.chrome.driver", FrameworkConstants.getChromeDriverPath());
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://google.com");
+		driver.findElement(By.name("q")).sendKeys("Automation",Keys.ENTER);
+		driver.quit();
+	}
+	
+	public void test2() {
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/Executables/chrome.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://google.com");
+		driver.findElement(By.name("q")).sendKeys("Testing mini bytes",Keys.ENTER);
+		driver.quit();
+	}
+	
+
+}
