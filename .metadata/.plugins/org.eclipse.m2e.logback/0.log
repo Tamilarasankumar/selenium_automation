@@ -2091,3 +2091,9 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:nett
 2024-06-26 11:16:20,755 [Worker-44: Launching Seleniumautomation_testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-06-26 11:16:20,767 [Worker-44: Launching Seleniumautomation_testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-06-26 11:16:20,770 [Worker-44: Launching Seleniumautomation_testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-26 12:45:29,355 [Worker-77: Launching Seleniumautomation_testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-26 12:45:29,360 [Worker-77: Launching Seleniumautomation_testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-26 12:45:29,372 [Worker-77: Launching Seleniumautomation_testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-26 12:45:29,376 [Worker-77: Launching Seleniumautomation_testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-06-26 13:03:42,546 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@1f0e99ae{STOPPING}[12.0.9,sto=0]
+2024-06-26 13:03:42,561 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3a8adc37{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
