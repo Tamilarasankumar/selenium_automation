@@ -1,7 +1,0 @@
-package com.tmb.constants;
-
-public class FrameworkConstants {
-	
-	public static final String CHROMEDRIVERPATH= System.getProperty("user.dir")+"/src/test/resources/Executables/chrome.exe";
-
-}
